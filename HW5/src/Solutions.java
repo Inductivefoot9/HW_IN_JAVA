@@ -110,8 +110,6 @@ public class Solutions {
         return maxSum;
     }
 
-    // preserve the max sum of one side of node "root",
-    // includig "root" node
     private int oneSideMaxSum(TreeNode root) {
         if (root == null) {
             return 0;
